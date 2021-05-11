@@ -1,0 +1,26 @@
+/*Basic styling of buttons*/
+.removeListButton{
+    margin: 50px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  .removeListButton:hover{
+    background-color: #e0a7a7;
+  }
+ 
+  .removeSearchButton{
+    margin: 50px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+
+  .removeSearchButton:hover{
+    background-color: #e0a7a7;
+  }
