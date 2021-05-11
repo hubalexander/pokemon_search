@@ -7,4 +7,4 @@
 
 ### `3. Start application with "npm start"`
 
-### `3. Visit "http://localhost:3000/"
+### `3. Visit "http://localhost:3000/"`
