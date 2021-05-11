@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+.container {
+  text-align: center; 
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.searchBox{
+  width: 100%;
+  border-radius: 10px;
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.searchBox:hover{
+  background-color: #e7e7e7;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.RemoveListButton{
+  margin: 50px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 10px;
+  font-size: 20px;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.RemoveSearchButton{
+  margin: 50px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 10px;
+  font-size: 20px;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.RemoveSearchButton:hover{
+  background-color: #e0a7a7;
 }
+
+.RemoveListButton:hover{
+  background-color: #e0a7a7;
+}
+.SearchSuggestion:hover{
+  background-color: #e0a7a7;
+  border-radius: 10px;
+  border-color: black;
+
+}
+
+.SearchSuggestion{
+cursor: pointer;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+border-left: 1px solid black;
+border-right: 1px solid black;
+margin: 5px;
+border-radius: 10px;
+font-size: 20px;
+
+}
+
+.SavedList{
+  font-size: 20px;
+  text-align: center; 
+ }
+
+
+
